@@ -1,5 +1,8 @@
-require "rhino/version"
+require 'rhino/logger'
+require 'rhino/version'
 
 module Rhino
-  # Your code goes here...
+  def self.logger
+    @logger ||= Rhino::Logger.new
+  end
 end
