@@ -1,3 +1,4 @@
+require 'rhino/cli'
 require 'rhino/logger'
 require 'rhino/version'
 
